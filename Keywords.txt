@@ -1,0 +1,53 @@
+Lesson1
+
+Gradle:  Build toolkit that manages Dependencies, Builds and packages the byte code along with Resources into Android Application package file(apk)
+
+ADB(Android Debug Bridge): Used to push the apk files to device. ADB is a command line utility included with Android's SDK.
+
+Components in apps: Activities, Services, BroadCast Receivers, Content Providers known to Android Framework as they are registered in Android Manifest file.
+
+Activity: Single focused thing an user can do. Activities are responsible for creating the window that your application uses to draw and receive events from the system.
+
+Type of View : UI Components(inherited from View), Container View(inherited from ViewGroup)
+
+R Class: When application is compiled the R class is generated. It creates constants that allow us to dynamically identify the various contents of the res folder, including layouts.
+
+Layout Inference: Helps in making layouts more responsive, can easily create seperate layout for potrait, Landscape.
+
+	Frame Layout: Great to use if we have 1 child view. Like list view that fills the entire content area.
+	Linear Layout: Use for stacking Views horizontally or Vertically. Will support responsive design 
+	Constraint Layout: Complex, can have lot of childs.
+	
+
+
+
+Lesson2
+	
+Log Levels: (What a Terrible Failure, Error, Warn, Info, Debug, Verbose)    =>Syntax:  Log.e/w/i/d/v (String Tag, String message);
+
+Toast: Provides simple feedback about an operation in a small popup. Automatically disappear after certain time.
+
+Adding Menu items: ShowAsAction = "ifRoom/always" XML attribute is used to show the menu item on Toolbar.
+
+Uri.Builder: Creates a well formed Uri
+
+Permissions: All permission of Device services like Internet, Camera, Phone book, Call etc should be explicitly mentioned in manifest file.
+
+Thread: Every app runs on seperate thread
+	Sigle user Interfacr Thread: This thread is responsible for getting events from various sensors and setting up the next frame to draw. Each draw should be in less than 17MS. (Means we want to do little as possible on this thread).
+	Run the network task on a secondary execution thread provided by Async Task.
+
+Async Task: Allows us to run the task on a background thread, while publishing the results to the UI thread. UI Thread have handler, message queue. Async task takes (Params - parameter type sent to the task upon execution, Progress - type published to update progress during the background computation, Result- Type of result of the bcakground computation)
+
+
+
+
+	
+
+
+
+	
+
+
+
+
