@@ -41,6 +41,45 @@ Async Task: Allows us to run the task on a background thread, while publishing t
 
 
 
+Lesson3
+
+RecyclerView: A queue that keeps the previously created list items that are not in Visible screen.  Easy to filter items using RecyclerView. 
+	Adapter: RecyclerView has adapter that provided new views, also binds data from data source to views.  
+	Viewholder: Adapter sends the views to an object called Viewholder. Cantains refernce to rootView object for the item. Expected to use it to cash the view objects represented in the layout make it less costly to update the views with new data. This way find view by ID called for each data view whenever that new item is created, not each time you want to populate the views in the item with data. 
+	LayoutManager: This tells the RecyclerView how to layout all those views. 
+	
+Dimension: SP, DP: They are not actuall pixel sizes, PX = DP * (dpi/160)    where dpi is pixel density mostly >480 in mobiles 
+			Use SP if we have text preference, 
+			
+LayoutLinflator: Used to inflate a view from layoutItem template by taking 3 params (layoutIDforListItem, viewGroup, bool should attached to parent Immediately)
+
+RecyclerViewAdapter:  onCreateViewHolder -> takes the viewGroup, viewType and inflates a view from layout, finally creates and returns the viewHolder. 
+					  onBindViewHolder -> takes the viewHolder, position and sets the data on view
+					  getItemCount -> returns the numberofItems
+					  
+LayoutManger: 3 layoutManagers LinearLayoutManger, grid, StaggerdGridLayoutManager
+
+
+
+Lesson 4
+
+
+
+
+					  
+					  
+
+
+
+
+	
+	
+	
+
+
+
+
+
 
 	
 
