@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a7b08dfe1b32742839fffa813ff3c3e52c4ee34a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\preference-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a200389b6c5adb38be8830f85fb5d3bb35ec9950">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-preference-v7-25.0.0_3cc599b6950d8e5736401d809106393cce663268.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_10572fa1eb951cf3eb43313dee17b4a3d2021df1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_3d7f2887abe287e356d126ff8c6ca70ef11ff3ce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_3a7e370e9b4569f1c22e8c2ea39dbfaafa6804a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_2bc396dc91e8de7a38586c8278e2f4f4ed5471c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_e5948dea5b31e63352084f5a78bd2051a7344bc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_e5d3f4eccaa6c10ffb1ccd1741ee918b8df464da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_9cd366db0c59fee080a8ef9fd6524724e389d3c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_a4e3eb2e48c6d901171b7c39354e727e7cd9cf80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_95eec3fc5eafccaef9d1942f9edac079c41360ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_73e2f2fc5b776e81517f0f4c5be9e7bbdad863d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_0d1901a7ddc5e37459e2e8d23a3f6a949dc2fb6b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_16206b1108e1a4c9bac217ac56f01cc93e7f4664.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_3570d2c612e2adac795a7ef5752442c241e2582e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_9f823f049c6c5a2106d8e014406b9a2297cc10c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\atummala\temp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\Users\atummala\temp\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_40c8193938a10896c40bc2ba0e71eff5195e8831.jar" />
+    </item>
+
+</items>

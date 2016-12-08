@@ -44,7 +44,7 @@ Async Task: Allows us to run the task on a background thread, while publishing t
 Lesson3
 
 RecyclerView: A queue that keeps the previously created list items that are not in Visible screen.  Easy to filter items using RecyclerView. 
-	Adapter: RecyclerView has adapter that provided new views, also binds data from data source to views.  
+	Adapter: RecyclerView has adapter that provides new views, also binds data from data source to views.  
 	Viewholder: Adapter sends the views to an object called Viewholder. Cantains refernce to rootView object for the item. Expected to use it to cash the view objects represented in the layout make it less costly to update the views with new data. This way find view by ID called for each data view whenever that new item is created, not each time you want to populate the views in the item with data. 
 	LayoutManager: This tells the RecyclerView how to layout all those views. 
 	
@@ -61,7 +61,59 @@ LayoutManger: 3 layoutManagers LinearLayoutManger, grid, StaggerdGridLayoutManag
 
 
 
-Lesson 4
+Lesson 4 (Structure of app, Navigation between screens, USing Activites that come from other app's)
+
+Intent Framework: For communicating between Activities we use messaging objects called Intents. (Starting a new activity, picking or displaying a photo, making a phone call)
+				  Anology - each Intent is like a envelope which include which compoent it has be delivered, small amount of data, 
+
+Move between Activities: StartActivity(Intent);
+
+Implicit Intents : opening websites, Making calls, Sharing text on Twitter etc
+
+
+
+Lesson 5
+
+LifeCycle order:  onCreate-> [Created] onStart -> [Visible] onResume ->[Active] -> onPasue [Paused] onStop ->[Stopped] onDestroy ->[Destroyed]
+
+Edit text will be saved even when recreating the State.
+
+Async network calls Lifecycle : If the Activity that started the Aysnc calls is destroyed it delivers data to Zombie activity.
+
+Loader: provides a platform for Asyncronous loading of data. They are registered by ID with a component called LoaderManager. They live beyound the lifeCycle of Activity. Preventing duplicate loads happening in parallel.
+Ex: AysncTasKLoader
+
+Caching loader results: As loaders are tied to application, we can cache the previous results and get the results after restart.
+
+
+
+Lesson 6:
+
+Prefernces: Adroid stores the app level settings using preferences that live through put in the app life cycle.
+
+Data Persistence: onSavedInstanceState: (Key Value)-> COMPLEX Saved Instance state(If app is closed, the data saved is gone. Mainaly used for temp data while rotating the screen)
+				  SharedPreferences: (Key Value) ->("String", PRIMITIVIE) used for storing the name on a game app or in broswer app stroing the previous url. When the app is closed and open it still keeps the data.
+				  SQLLite Database: Organized, more complicated text/numeric/ boolean data
+				  Internal/Extrenal Storage: Multimedia or large data.
+				  Server(ex:FirBase): Data accessable my multiple devices
+				  
+SharedPreferenceChangeListener: It is triggered after any value is saved to the SharedPreferences file.
+
+PreferenceChangeListener: It is triggered before a value is saved to the SharedPreferences file. Because of this, it can prevent an invalid update to a preference. PreferenceChangeListeners are also attached to a single preference.
+
+
+
+				  
+				  
+				   
+
+
+
+
+
+
+
+
 
 
 
